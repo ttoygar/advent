@@ -1,5 +1,6 @@
 #!/bin/bash
 
+# wait for database management command
 python manage.py wait_for_db
 
 python manage.py migrate
